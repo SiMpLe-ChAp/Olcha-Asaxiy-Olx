@@ -1,0 +1,277 @@
+.emptyyyy {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.empty__img {
+  width: 128px;
+  height: 128px;
+  margin: 130px;
+}
+
+.add__to__account {
+  background-color: var(--bg-py);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.small__card img{
+  height: 100px;
+}
+.emptyyyy h1 {
+  font-size: 20px;
+  margin-top: -105px;
+  margin-bottom: 10px;
+}
+
+.emptyyyy h2 {
+  font-weight: 100;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.one {
+  display: flex;
+  margin-top: 30px;
+}
+
+.one h1 {
+  flex: 1;
+  font-weight: 100;
+  margin-bottom: 10px;
+  font-size: 25px;
+  margin-top: 2%;
+}
+
+.one select {
+  padding: 2px 30px;
+  border-radius: 5px;
+  border: 3px solid dodgerblue;
+  margin: 2%;
+  color: dodgerblue;
+  outline: none;
+}
+
+.small__card {
+  display: flex;
+  background: #fff;
+  box-shadow: 0 0 7px 2px #ddd;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.small__card h1 {
+  font-weight: 100;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.column {
+  flex-direction: column;
+  flex: 0.9;
+}
+
+.small__card .intex {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background: dodgerblue;
+  font-size: 15px;
+  margin: 10px;
+  color: #fff;
+}
+
+.column__two {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.column__two del {
+  color: darkred;
+}
+
+.column__three {
+  flex-direction: column;
+  display: flex;
+  margin: 0px 40px;
+}
+
+.column__three .add_cart {
+  padding: 6px 30px;
+  font-size: 15px;
+  background: dodgerblue;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.column__three .add_cart:hover {
+  background: darkblue;
+  transition: .3s;
+}
+
+.column__three .delate {
+  background: orange;
+  padding: 6px 30px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.column__three .delate:hover {
+  background: darkorange;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 990px) {
+  .empty__img {
+    margin: 80px;
+  }
+
+  .emptyyyy h1 {
+    margin-top: -80px;
+  }
+  .small__card{
+    width: 50%;
+    margin-left: 30%;
+  }
+  .small__card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .small__card img{
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .empty__img {
+    margin: 40px;
+  }
+
+  .emptyyyy h1 {
+    margin-top: -60px;
+  }
+
+  .one h1 {
+    font-size: 20px;
+  }
+
+  .one select {
+    font-size: 12px;
+  }
+
+  .small__card h1 {
+    font-size: 18px;
+  }
+
+  .small__card .intex {
+    font-size: 12px;
+  }
+
+  .column__two {
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .column__two del {
+    font-size: 14px;
+  }
+
+  .column__three {
+    margin: 0px 20px;
+  }
+
+  .column__three .add_cart {
+    font-size: 12px;
+    padding: 4px 20px;
+  }
+
+  .column__three .delate {
+    font-size: 12px;
+    padding: 4px 20px;
+  }
+  .small__card{
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .empty__img {
+    margin: 20px;
+    width: 80px;
+    height: 200px;
+  }
+
+  .emptyyyy h1 {
+    margin-top: -40px;
+    font-size: 16px;
+  }
+
+  .emptyyyy h2 {
+    font-size: 12px;
+  }
+
+  .one h1 {
+    font-size: 16px;
+  }
+
+  .one select {
+    font-size: 10px;
+    padding: 1px 20px;
+  }
+
+  .small__card {
+    flex-direction: column;
+    margin-top: 30px;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .small__card h1 {
+    font-size: 16px;
+    margin: 5px;
+  }
+
+  .small__card .intex {
+    font-size: 10px;
+    padding: 3px 6px;
+    margin: 5px;
+  }
+
+  .column__two {
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .column__two del {
+    font-size: 12px;
+  }
+
+  .column__three {
+    margin: 0px 10px;
+  }
+
+  .column__three .add_cart {
+    font-size: 10px;
+    padding: 3px 15px;
+  }
+
+  .column__three .delate {
+    font-size: 10px;
+    padding: 3px 15px;
+  }
+}

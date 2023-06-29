@@ -1,0 +1,40 @@
+.create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .creaate {
+    width: 400px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+  }
+  
+  .creaate h2 {
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .creaate form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .creaate input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .creaate button {
+    padding: 10px 100px;
+    background-color: var(--bg-py);
+    color: #ffffff;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
